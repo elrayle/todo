@@ -1,2 +1,3 @@
-# todo
-Track my todo list as issues in GitHub.
+# Unix Utilities
+
+Shortcut scripts for commonly used Unix commands. 
