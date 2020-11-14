@@ -1,0 +1,11 @@
+#! /bin/bash
+echo 'aws --endpoint-url=http://localhost:4576 sqs create-queue --queue-name usda_esmis_development_default'
+aws --endpoint-url=http://localhost:4576 sqs create-queue --queue-name usda_esmis_development_default
+
+echo 'aws --endpoint-url=http://localhost:4576 sqs create-queue --queue-name usda_esmis_development_resolrize'
+aws --endpoint-url=http://localhost:4576 sqs create-queue --queue-name usda_esmis_development_resolrize
+
+echo 'aws --endpoint-url=http://localhost:4576 sqs create-queue --queue-name usda_esmis_development_email'
+aws --endpoint-url=http://localhost:4576 sqs create-queue --queue-name usda_esmis_development_email
+
+
