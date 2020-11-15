@@ -1,0 +1,3 @@
+#! /bin/bash
+cd /Users/elr37/Downloads/__TRIPLE\ STORES__/blazegraph_1.5.3
+java -server -Xmx4g -Dbigdata.propertyFile=RWStore.properties -jar bigdata-bundled.jar

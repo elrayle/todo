@@ -1,0 +1,14 @@
+#! /bin/bash
+# cd /Users/elr37/Documents/__DEVELOPMENT__/___AGRISUFIA/AGRISUFIA_ACTIVE
+git clone git@github.com:cul-it/usda-esmis-sufia.git
+cp ~/Documents/__DEVELOPMENT__/MANN_PROJECTS/ESMIS/LOCAL_FILES_TO_COPY/.env usda-esmis-sufia
+cp ~/Documents/__DEVELOPMENT__/MANN_PROJECTS/ESMIS/LOCAL_FILES_TO_COPY/.env.local usda-esmis-sufia
+cp ~/Documents/__DEVELOPMENT__/MANN_PROJECTS/ESMIS/LOCAL_FILES_TO_COPY/.env.test usda-esmis-sufia
+cp ~/Documents/__DEVELOPMENT__/MANN_PROJECTS/ESMIS/LOCAL_FILES_TO_COPY/.ruby-gemset usda-esmis-sufia
+cd usda-esmis-sufia
+rvm use ruby-2.3.1@esmis
+git checkout -b elr_branch
+bundle install
+rake db:migrate
+git branch
+

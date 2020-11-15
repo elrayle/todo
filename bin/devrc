@@ -1,0 +1,2 @@
+#! /bin/bash
+sshfs elr37-dev.library.cornell.edu:/cul/web/cals-che-sufia-dev.library.cornell.edu/htdocs/rails/ /Users/elr37/Documents/__DEVELOPMENT__/__REMOTE_WEBSERVER__/cals-che-sufia-dev
